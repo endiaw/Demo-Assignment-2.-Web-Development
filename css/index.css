@@ -1,0 +1,222 @@
+.body{
+    display: flex;
+    font-family: Clarkson, Proxima Nova, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height:510.28px;
+    background-color:rgb(61,68,53);
+   
+    
+}
+.nav-container{
+    display: flex;
+    width: 94.9%;
+    height: 85.48px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    
+    
+}
+.social-media{
+    display: flex;
+    width: 23%;
+    height: 85.48px;
+    align-items: center;
+}
+.social-media-list{
+display: flex;
+width: 200px;
+height: 20px;
+margin: 0;
+align-items: center;
+}
+
+.fa-instagram{
+    display: flex;
+    color:white;
+ 
+}
+.fa-facebook-f{
+    display: flex;
+    margin-left: 40px;
+    color: white;
+}
+.fa-youtube{
+    display: flex;
+    margin-left: 50px;
+    color: white;
+}
+
+.header-title{
+    display: flex;
+    width: 54%;
+    height: 85.48px;
+    flex-direction: column;
+    
+}
+.header-title-text{
+    display: flex;
+    height: 50%;
+    font-size: 29.2288px;
+    font-family: minerva-modern;
+    justify-content: center;
+    color: white;
+   
+}
+.navigation{
+    display: flex;
+    font-size: 18.6458px;
+    font-family: freight-tex-pro;
+   
+    
+ }
+ .nav-list{
+    display: flex;
+    margin-left: 100px;
+   justify-content: space-between;
+   
+   }
+   
+.nav-list ul{
+    display: flex;
+
+   
+ }
+ .nav-list ul li{
+    display: inline-block;
+    display: flex;
+    
+    
+ }
+ .nav-list ul li a{
+    display: flex;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;   
+    
+ }
+ .submenu{
+    display:flex; 
+    flex-direction: column;
+ }
+    
+ 
+  
+ ul .submenu li{
+    display: flex;
+    position: relative;
+    margin-left: -40px;
+    
+   
+  }
+
+ ul .submenu li a{
+    
+    position: relative;
+    color: white;
+    display: none;
+   
+      
+ }
+.recipes-type{
+    display: flex;
+    flex-direction: column;
+}
+ .recipes-type:hover .submenu li a{
+    display: block;
+ }
+ 
+   
+.sign-button{
+    display:flex;    
+    width: 23%;
+    height: 85.48px;
+    position: relative;
+    
+}
+.log a{
+    display: flex;
+    width: 44.74px;
+    height: 29.83px;
+    font-size: 18.6458px;
+    font-family: freight-tex-pro;
+    color: white;
+    margin-top: 48px;
+    margin-left: 80px;
+      text-decoration: none;
+    position: relative;
+ 
+}
+
+ .form-box-login{
+    display: flex;
+    width: 480px;
+    height: 322.68px;
+    background-color:aqua;
+    padding: 44px, 44px, 22px;
+    margin-top: 130px;
+    margin-left: -600px;
+    position: absolute;
+ }
+ .form-box-login> h1{
+    width: 392px;
+    height: 41px;
+    font-weight: 30px;
+    font-size: 20px;
+    font-family: Clarkson, Proxima Nova, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 60p;
+    color:#3e3e3e;
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+ .input-box> input[type="text"]{
+    width: 392px;
+    height: 44.8px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+ .input-box> input[type="password"]{
+    width: 392px;
+    height: 44.8px;
+    background-color: #ffffff;
+   border-radius: 5px;
+   margin-left: 40px;
+   
+ }
+ 
+ .input-box> button[type="submit"]{
+   display: block;
+    width: 392px;
+    height: 44.8px;
+    background-color: #3e3e3e; 
+    margin: 22px;
+    margin-left: 40px;
+    font-weight: 600;
+    line-height: 22px;
+    color: white;
+    border-radius: 3px;
+ }
+
+
+.butt{
+    display: flex;
+    width: 162.21px;
+    height: 60px;
+    font-size: 16px;
+    font-family: freight-tex-pro;
+    background-color: #c2c8cc;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 27px;
+   margin-left: 20px;
+    border: none;
+}
